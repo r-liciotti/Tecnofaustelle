@@ -1,0 +1,64 @@
+
+/* Hover Colonne */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html, .columnContainer{
+    height: 100%;
+}
+
+.columnContainer {
+    display: table;
+    width: 100%;
+}
+
+.columnContainer > section {
+    width: 20%;
+    display: table-cell;
+    -webkit-transition: width 0.3s linear;
+    transition: width 0.3s linear;
+}
+
+.columnContainer:hover > section:hover {
+    width: 40%;
+}
+
+.columnContainer:hover > section {
+    width: 15%;
+}
+
+.columnContainer > section:nth-of-type(1) {
+    background-image: url(https://source.unsplash.com/1600x900/?idea);
+    background-size: cover;
+}
+.columnContainer > section:nth-of-type(2) {
+  background-image: url(https://source.unsplash.com/1600x900/?idea);
+  background-size: cover;
+
+}
+.columnContainer > section:nth-of-type(3) {
+  background-image: url(https://source.unsplash.com/1600x900/?idea);
+  background-size: cover;
+
+}
+.columnContainer > section:nth-of-type(4) {
+  background-image: url(https://source.unsplash.com/1600x900/?idea);
+  background-size: cover;
+
+}
+.columnContainer > section:nth-of-type(5) {
+  background-image: url(https://source.unsplash.com/1600x900/?idea);
+  background-size: cover;
+
+}
+
+.columnContainer > section{
+  padding-top: 40%;
+}
+
+.columnContainer > section > div > a{
+  font-style: 1.2em;
+}

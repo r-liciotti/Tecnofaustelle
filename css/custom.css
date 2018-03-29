@@ -1,0 +1,55 @@
+
+nav{
+  margin-top: 30px;
+}
+
+a{
+  color: black!important;
+}
+
+.banner{
+  width: 100%; height: 100%; top: 0; left: 0;
+background-image: url(../img/banner.jpg);
+background-repeat: no-repeat;
+background-position: center top;
+position: relative;
+top: -95px;
+z-index: -1;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+/* Servizi */
+
+
+.servizi{
+    margin-top: -150px;
+     height: 140px;
+
+}
+
+.servizi .s2{
+  height: 120px;
+  margin-top: 10px;
+  border-left: solid 2px white;
+
+}
+
+.servizi ul li{
+  display: inline-block;
+}
+
+.servizi h5{
+  font-size: 1.2em;
+  color: white;
+}
+
+/* Chi Siamo */
+
+.chi_siamo{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
