@@ -1,0 +1,91 @@
+/* Iphone verticali e ladnscape */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  nav>.nav-wrapper>a {
+    font-size: 20px;
+  }
+  .servizi {
+    height: 55px;
+  }
+  .servizi .s2 {
+    height: 40px;
+    margin-top: 10px;
+    border-left: solid 1px white;
+  }
+  .servizi h5 {
+    font-size: 5px;
+    color: white;
+    margin: 0.32rem 0 .656rem 0;
+  }
+  #contatti {
+    display: none;
+  }
+  #contatti_l {
+    display: block;
+    background-color: red;
+    height: 215px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .servizi h5 {
+    font-size: 7px;
+  }
+}
+
+/* Tablet verticali e ladnscape */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav>.nav-wrapper>a {
+    font-size: 4.4vw;
+  }
+  .servizi h5 {
+    font-size: 2vw;
+  }
+  #contatti_l {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  nav>.nav-wrapper>a {
+    font-size: 4.4vw;
+  }
+  .servizi h5 {
+    font-size: 1.6vw;
+  }
+  #contatti_l {
+    display: none;
+  }
+}
+
+/* IPad Pro (piu grandi) */
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+  nav>.nav-wrapper>a {
+    font-size: 4.4vw;
+  }
+  nav ul a {
+    font-size: 1.25rem;
+  }
+  .servizi h5 {
+    font-size: 1.6vw;
+  }
+  #contatti_l {
+    display: none;
+  }
+}
+/* landscape ipad piu grandi */
+@media (min-width: 1366px) and (max-width: 1367px) {
+  nav>.nav-wrapper>a {
+    font-size: 3.4vw;
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 1025px) {
+  #contatti_l {
+    display: none;
+  }
+}
